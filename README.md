@@ -39,7 +39,7 @@
 # Tips
 
 > [!TIP]
->  Es posible extender una busqueda de información en ```Google``` agragando a la busqueda ```site: drive.google.com```. 
+>  Es posible extender una busqueda de información en ```Google``` agregando ```site: drive.google.com``` al final de la busqueda. 
 
 Google browser sample:
 ```
