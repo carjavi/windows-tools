@@ -22,11 +22,17 @@
 
 <p>Press <kbd>Win</kbd> + <kbd>Z</kbd> → split screen</p>
 
-<p>Press <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> → screen shop / all screens / rectangule </p>
+<p>Press <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> → screen REC-SHOP / all screens / rectangule </p>
 
 <p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
 
 <p>Press <kbd>Win</kbd> + <kbd>H</kbd> → Rec voice</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>K</kbd> → Para conectar al televisor inalámbricamente</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>L</kbd> → bloquear pantalla computador</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>.</kbd> → agregar símbolos o emojis a lo que estas escribiendo  </p>
 
 <br>
 
