@@ -36,6 +36,17 @@
 
 <br>
 
+> > [!NOTE]
+>  Es posible extender una busqueda de información en ```Google``` agragando a la busqueda ```site: drive.google.com```. sasmple:
+
+Google browser 
+```
+modelo de negocio site:drive.google.com
+```
+> :warning: **Warning:** Algunos drives serán inasequibles por sus opciones de seguridad, pero otros estarán de fácil acceso.
+
+<br>
+
 ---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
