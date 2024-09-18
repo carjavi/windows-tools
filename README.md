@@ -36,7 +36,7 @@
 
 <br>
 
-# Tips
+# Google Tips 
 
 > [!TIP]
 >  Es posible extender una busqueda de información en ```Google``` agregando ```site: drive.google.com``` al final de la busqueda. 
@@ -46,6 +46,16 @@ Google browser sample:
 modelo de negocio site:drive.google.com
 ```
 > :warning: **Warning:** Algunos drives serán inasequibles por sus opciones de seguridad, pero otros estarán de fácil acceso.
+
+<br>
+
+> [!TIP]
+> Search and read the full text of patents from around the world with Google Patents:  https://patents.google.com/
+
+<br>
+
+> [!TIP]
+> google académico: https://scholar.google.es/
 
 <br>
 
