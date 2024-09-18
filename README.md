@@ -36,10 +36,12 @@
 
 <br>
 
-> > [!NOTE]
->  Es posible extender una busqueda de información en ```Google``` agragando a la busqueda ```site: drive.google.com```. sasmple:
+# Tips
 
-Google browser 
+> [!TIP]
+>  Es posible extender una busqueda de información en ```Google``` agragando a la busqueda ```site: drive.google.com```. 
+
+Google browser sample:
 ```
 modelo de negocio site:drive.google.com
 ```
