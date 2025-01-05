@@ -16,13 +16,12 @@
 
 ```cmd (run administrator)```  sfc / scannow => scan and fix disk
 
-<p>Press <kbd>Win</kbd> + <kbd>R</kbd> write <kbd>eventvwr</kbd> abre el "Visor de eventos" </p> 
+<p>Press <kbd>Win</kbd> + <kbd>R</kbd> write <kbd>eventvwr</kbd> abre el "Visor de eventos" <br>
 Registros de Windows/Aplicación/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
 Registros de Windows/Seguridad/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
 Registros de Windows/Instalación/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
 Registros de Windows/Sistema/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
-Registros de Windows/Eventos reenviar/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
-
+Registros de Windows/Eventos reenviar/ Botón derecho en el nombre "vaciar registro" y Borrar</p> 
 > :bulb: **Tip:**  tarda un poco en mostrar los registros que se quieres eliminar
 
 ### Liberar espacio del disco
