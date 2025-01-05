@@ -59,14 +59,14 @@ Botón derecho en el icono de inicio / configuración
 **Notificaciones y Acciones/** deshabilitar todas las notificaciones <br>
 **Ahorro de energía/** quitar la suspension e hibernación cuando no se usa <br>
 **Experiencias compartidas/** deshabilitamos todo <br>
-Bajar la calidad Visual de windows <br>
+Bajar la calidad Visual de windows: <br>
 **Acerca de/ configuración avanzada del sistema/Opciones Avanzadas/Rendimiento/configuración/Efectos Visuales/** Elegir según sea conveniente... <br>
 **Acerca de/ configuración avanzada del sistema/Opciones Avanzadas/Rendimiento/configuración/Opciones avanzadas/** Ajustar para mejorar el rendimiento de: "Programas". Aceptar <br>
 
 ```Configuraciones/ Personalización/```<br>
 **Colores/** desactivamos transparencia<br>
-**Inicio /** desactivamos todos menos "mostrar lista de aplicaciones" / activarlo o desactivarlo # te muestra lo que esta corriendo en segundo <br>
-**Barra de tarea/Area de notificación/** botón "Seleccionar iconos que aparecen en la barra de tarea"<br>
+**Inicio /** desactivamos todos menos "mostrar lista de aplicaciones" / activarlo o desactivarlo<br>
+**Barra de tarea/Area de notificación/** botón "Seleccionar iconos que aparecen en la barra de tarea". Esto te muestra lo que esta corriendo en segundo, para usuarios con experiencia.<br>
 **Barra de tarea/Area de notificación/** botón "activar y desactivar iconos del sistema"/desactivar todos menos reloj/volumen/red<br>
 **Barra de tarea/Noticias e interés/** desactivar todo<br>
 **Pantalla de bloqueo/fondo/** poner imagen fija y desactivar la casilla de mostrar datos curiosos <br>
