@@ -23,6 +23,8 @@
 
 <p>Press <kbd>Win</kbd> + <kbd>.</kbd> → agregar símbolos o emojis a lo que estas escribiendo  </p>
 
+<p>Press <kbd>Ctrl</kbd> + <kbd>shift</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd>  → Run Office 360 On line</p>
+
 <br>
 
 # Maintenance
