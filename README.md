@@ -48,7 +48,7 @@ En el explorador de windows buscamos el disco principal <br>
 **Propiedades/General/ Liberar espacio/** limpiar archivos de sistema <br>
 **Propiedades/General/ Liberar espacio/** seleccionar archivos y aceptar <br>
 
-> :warning: **Warning:** Ojo seleccionar la carpeta de Descarga de windows.
+> :warning: **Warning:** Tener cuidado de selecvcionar la carpeta de Descarga de windows, podrias borrar archivos de interes.
 
 <br>
 
