@@ -6,6 +6,25 @@
 
 <br>
 
+
+# General
+
+<p>Press <kbd>Win</kbd> + <kbd>Z</kbd> → split screen</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> → screen REC-SHOP / all screens / rectangule </p>
+
+<p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>H</kbd> → Rec voice</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>K</kbd> → Para conectar al televisor inalámbricamente</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>L</kbd> → bloquear pantalla computador</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>.</kbd> → agregar símbolos o emojis a lo que estas escribiendo  </p>
+
+<br>
+
 # Maintenance
 
 <p>Press <kbd>Win</kbd> + <kbd>R</kbd> write <kbd>mrt</kbd>  →  Malicious Software Removal Tool </p>
@@ -30,24 +49,6 @@ En el explorador de windows buscamos el disco principal <br>
 **Propiedades/General/ Liberar espacio/** seleccionar archivos y aceptar <br>
 
 > :warning: **Warning:** Ojo seleccionar la carpeta de Descarga de windows.
-
-<br>
-
-# General
-
-<p>Press <kbd>Win</kbd> + <kbd>Z</kbd> → split screen</p>
-
-<p>Press <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> → screen REC-SHOP / all screens / rectangule </p>
-
-<p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
-
-<p>Press <kbd>Win</kbd> + <kbd>H</kbd> → Rec voice</p>
-
-<p>Press <kbd>Win</kbd> + <kbd>K</kbd> → Para conectar al televisor inalámbricamente</p>
-
-<p>Press <kbd>Win</kbd> + <kbd>L</kbd> → bloquear pantalla computador</p>
-
-<p>Press <kbd>Win</kbd> + <kbd>.</kbd> → agregar símbolos o emojis a lo que estas escribiendo  </p>
 
 <br>
 
@@ -94,6 +95,36 @@ En el buscador del botón inicio ```msconfig``` (configuración del sistema) <br
 **General / Selección de inicio/ inicio selectivo/** habilitamos "carga de servicios del sistema" y "Carga elementos de inicio" <br>
 **Arranque/Opciones Avanzadas/** habilitamos "Números de procesadores" y seleccionamos el numero máximo en el menu desplegable, aceptar y reiniciar. Hara que windows aproveche al máximo el CPU al iniciar
 
+<br>
+
+# Activar Office 2024, 2021, 2019, 2016, 2013 y Microsoft 365
+1. Cerrar Office
+2. Abrir Power Shell como administrador (No funciona desde una ventana CMD)
+3. Correr comando shell:
+```shell
+irm https://get.activated.win | iex
+```
+4. Press 2 (Ohook Office Permanent)
+5. Press 1 (install Ohook Office Activation)
+    - cuando diga: "Office is permanently actived" pulsar cualquier tecla
+6. Press 0 (exit)
+
+<br>
+
+# Instalar Office LTSC 2021 
+YouTube: https://www.youtube.com/watch?v=cW6RqGhBTEQ&ab_channel=AbrahamFranciscoBaez <br>
+Office Oficial page: https://learn.microsoft.com/es-es/office/ltsc/2021/deploy
+
+### Install
+1. Descargar el ZIP Microsoft-Office-LTSC-2021 y descomprimir 
+   - https://www.mediafire.com/file/j9v534odbj27a2v/Microsoft-Office-LTSC-2021.rar/file
+2. Abrir terminal CMD como administrador (no sirve Power Shell)
+3. llegar a la carpeta de office desde el terminal. (copiar la ruta desde el explorador de windows sample: cd ruta-Microsoft-Office-LTSC-2021)
+4. Correr comando:
+```shell
+setup /configure carjavi-configuration.xml
+```
+5. Finish
 
 <br>
 
