@@ -13,7 +13,12 @@
 
 <p>Press <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> → screen REC-SHOP / all screens / rectangule </p>
 
+<p>Press <kbd>Win</kbd> + <kbd>shift</kbd> + <kbd>s</kbd>  → Captura pantalla</p>
+
+
 <p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>D</kbd> → Oculta todas las pantallas</p>
 
 <p>Press <kbd>Win</kbd> + <kbd>H</kbd> → Rec voice</p>
 
@@ -25,6 +30,8 @@
 
 <p>Press <kbd>Ctrl</kbd> + <kbd>shift</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd>  → Run Office 360 On line</p>
 
+<p>Press <kbd>Ctrl</kbd> + <kbd>shift</kbd> + <kbd>T</kbd>  → En el Browser restaura las ventanas cerradas</p>
+
 <br>
 
 # Maintenance
@@ -35,7 +42,10 @@
 
 <p>Press <kbd>Ctrl</kbd> + <kbd>Shitf</kbd> + <kbd>Esc</kbd> choose Startup App  → Enable/Disable app startup </p>
 
-```cmd (run administrator)```  sfc / scannow => scan and fix disk
+```cmd (run administrator)``` 
+```sfc / scannow``` => scan and fix disk
+```chkdsk /r/f unidad``` => Busca errores en el disco
+```arp -a``` =>  para ver todas las ip en la red 
 
 <p>Press <kbd>Win</kbd> + <kbd>R</kbd> write <kbd>eventvwr</kbd> abre el "Visor de eventos" <br>
 Registros de Windows/Aplicación/ Botón derecho en el nombre "vaciar registro" y Borrar<br>
