@@ -15,8 +15,9 @@
 
 <p>Press <kbd>Win</kbd> + <kbd>shift</kbd> + <kbd>s</kbd>  → Captura pantalla</p>
 
-
 <p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
+
+<p>Press <kbd>Win</kbd> + <kbd>S</kbd> → Menu con emoticones, symbols especiales, Portapapeles</p>
 
 <p>Press <kbd>Win</kbd> + <kbd>D</kbd> → Oculta todas las pantallas</p>
 
