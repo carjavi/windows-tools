@@ -17,7 +17,7 @@
 
 <p>Press <kbd>Win</kbd> + <kbd>G</kbd> → xbox tools</p>
 
-<p>Press <kbd>Win</kbd> + <kbd>S</kbd> → Menu con emoticones, symbols especiales, Portapapeles</p>
+<p>Press <kbd>Win</kbd> + <kbd>S</kbd> →  Visor de Portapapeles, Menu con emoticones, symbols especiales</p>
 
 <p>Press <kbd>Win</kbd> + <kbd>D</kbd> → Oculta todas las pantallas</p>
 
