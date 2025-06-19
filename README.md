@@ -143,14 +143,66 @@ setup /configure carjavi-configuration.xml
 
 # Google Tips 
 
-> [!TIP]
->  Es posible extender una busqueda de información en ```Google``` agregando ```site: drive.google.com``` al final de la busqueda. 
+## Herramientas de búsqueda avanzada en Google
 
-Google browser sample:
-```
-modelo de negocio site:drive.google.com
-```
-> :warning: **Warning:** Algunos drives serán inasequibles por sus opciones de seguridad, pero otros estarán de fácil acceso.
+* ```Búsqueda específica dentro de documentos:``` El operador ***intext:*** sirve para buscar páginas web que contengan una palabra o frase específica dentro del texto de la página, no solo en el título o la URL.
+
+* ```Búsqueda por tipo de archivo:``` con ***filetype:***, puedes buscar tipos de archivos específicos como PDF, DOC, PPT, etc.
+  
+* ```Búsqueda por sitio:``` Con ***site:***, puedes limitar la búsqueda a un sitio web en particular.
+
+* ```Búsqueda por rango de fechas:``` Puedes usar ***daterange:*** seguido de fechas en formato Juliano para buscar contenido publicado en un período específico.
+  
+* ```Búsqueda de términos relacionados:``` Usa ***related:*** seguido de una URL para encontrar sitios similares.
+
+## Ejemplos de uso combinado
+
+* Encontrar un estudio científico reciente:
+
+```intext:python``` <br>
+Google te mostrará resultados donde la palabra "python" aparece en el cuerpo del texto de las páginas web.
+  
+ ```intext:"machine learning"```<br>
+ Esto mostrará páginas donde la frase exacta "machine learning" aparece en el texto. Buscar una frase exacta, puedes combinarlo con comillas.
+  
+```"cambio climático" filetype:pdf daterange:2459901-2460170 site:.edu``` <br>
+(Esto buscaría archivos PDF sobre "cambio climático" publicados en sitios web de instituciones educativas en los últimos meses). <br>
+
+```intext:"Juan Pérez" site:drive.google.com filetype:pdf "Informe Anual 2023"```<br>
+Supón que buscas un PDF titulado "Informe Anual 2023" de una persona llamada Juan Pérez. 
+
+
+* Investigar alternativas a un producto:
+  
+```related:ejemplo.com``` <br>
+(Esto mostraría sitios web similares a "ejemplo.com").
+
+* Buscar un término dentro de un sitio específico:
+  
+```site:bbc.com intext:"inteligencia artificial"```<br>
+Si quieres encontrar páginas en un sitio web donde se mencione "inteligencia artificial"
+
+* Buscar archivos PDF que contengan una palabra o frase: <br>
+  
+```filetype:pdf intext:blockchain``` <br>
+Si buscas documentos PDF que mencionen "blockchain"
+
+* Buscar una frase exacta en páginas de un dominio educativo <br>
+  
+```site:.edu intext:"cambio climático"``` <br>
+Si quieres encontrar la frase "cambio climático" en sitios de universidades.
+
+* Combinar varios operadores para una búsqueda muy específica: <br>
+
+```site:drive.google.com filetype:pptx intext:"big data"``` <br>
+encontrar presentaciones en PowerPoint sobre "big data" en Google Drive
+
+* Excluir palabras de la búsqueda: <br>
+  
+```intext:python -intext:snake``` <br>
+Si quieres buscar "python" pero sin resultados que mencionen "snake"
+
+> :warning: **Warning:** Con **site:drive.google.com** algunos drives serán inasequibles por sus opciones de seguridad, pero otros estarán de fácil acceso.
 
 <br>
 
