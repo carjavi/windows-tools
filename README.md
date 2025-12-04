@@ -63,6 +63,26 @@ En el explorador de windows buscamos el disco principal <br>
 
 > :warning: **Warning:** Tener cuidado de selecvcionar la carpeta de Descarga de windows, podrias borrar archivos de interes.
 
+
+<br>
+
+# Abrir office en el navegador
+Requiere que tengas cuenta google
+
+```
+excel.new
+powerPoint.new
+word.new
+```
+
+<br>
+
+# Mejorar velocidad de conexion de internet en Windows
+<p>Press <kbd>Win</kbd> + <kbd>R</kbd> →  devmgmt.msc (Device Manager)</p>
+Buscar: Adaptadores de Redc(networking adapters)/(buscamos mi tarjeta de red)/propiedades/advanced/ <br>
+Buscamos: Property "Roaming aggressiveness" y en ***Value*** seleccionamos el valor mas alto (5.Highest) <br>
+Aceptar.
+
 <br>
 
 # Mejorar Rendimiento de Windows 10 (difiere un poco en windows 11)
