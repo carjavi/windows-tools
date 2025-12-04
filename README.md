@@ -110,6 +110,110 @@ En el buscador del botón inicio ```msconfig``` (configuración del sistema) <br
 
 <br>
 
+# Bloquear un Programa con FIREWALL de Windows (Bloquear Acceso a Internet)
+Evitar Actualización. 
+
+Abrir Windows Defender Firewall con seguridad avanzada:
+1. Pulsa ```⊞ Win + R``` → abre el cuadro Ejecutar.
+2. Escribe ```wf.msc → Enter```.
+
+Bloquear en Reglas de entrada y reglas de salida:
+1. Nueva regla/Programa/Programa-path
+2. Block the connection/next/
+3. Nombre del bloqueo _entrada/_salida
+
+> > [!NOTE]
+>Se pueden desbloquear temporalmente o eliminar con click derecho sobre la regla. Se debe hacer tanto en la entrada como la salida.
+
+<br>
+
+# Verificar conexiones sospechosas, muestra Conexiones activas,Puertos usados y PID del proceso asociado
+```bash
+netstat -ano:
+-a # muestra todas las conexiones y puertos en escucha.
+
+-n # muestra direcciones y puertos en formato numérico.
+
+-o # muestra el PID (ID de proceso) asociado.
+```
+
+
+## tasklist es el administrador de tareas para identificar los procesos con actividad inusual.
+ver que proceso esta usando un puerto sospechoso
+```bash
+tasklist /fi "PID eq XXXX" --> xxxx PID 
+```
+Si algún proceso no tiene nombre o está ubicado en %TEMP%, %APPDATA% o C:\Users\<user>\AppData\, puede ser malware.
+
+usar la AI para encontrar Puerto inusual
+
+desde powerShell como Administrador
+Cierra el proceso:
+```bash
+Stop-Process -Id 14408 -Force
+```
+elimina la carpeta:
+```bash
+Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Wondershare"
+```
+
+
+## Para hacer un escaneo completo con Microsoft Defender desde consola:
+Powershell (Como administrador)
+```bash
+Start-MpScan -ScanType FullScan
+```
+cmd (Como administrador)
+```bash
+"%ProgramFiles%\Windows Defender\MpCmdRun.exe" -Scan -ScanType 2
+ScanType 2 = escaneo completo
+ScanType 1 = escaneo rápido
+```
+
+Ver el resultado más reciente
+powershell
+```
+Get-MpThreatDetection
+```
+<br>
+
+# How to update graphics driver for Fusion on Windows
+Determine what graphics card manufacturer is installed: 
+```bash
+C:\Windows\System32\dxdiag.exe
+```
+Save All Information botton
+
+Go to the manufacturer's website for the installed graphics card and update to the latest version driver available from the manufacturer's website
+
+## Intel
+Intel® Driver & Support Assistant (Intel® DSA)
+intel: https://www.intel.com/content/www/us/en/support/detect.html
+
+## nvidia (si lo usa)
+https://www.nvidia.com/en-us/drivers/
+
+> > [!NOTE]
+> Al correr la APP actualizara los driver
+
+<br>
+
+# Cambiar el Arranque entre Windows y Linux
+
+usa la herramienta gráfica Grub Customizer:
+## Install
+```bash
+sudo apt update
+sudo apt install grub-customizer
+```
+
+## Run
+```bash
+grub-customizer
+```
+
+<br>
+
 # Activar Office 2024, 2021, 2019, 2016, 2013 y Microsoft 365
 1. Cerrar Office
 2. Abrir Power Shell como administrador (No funciona desde una ventana CMD)
