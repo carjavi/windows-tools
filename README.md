@@ -79,8 +79,9 @@ word.new
 
 # Mejorar velocidad de conexion de internet en Windows
 <p>Press <kbd>Win</kbd> + <kbd>R</kbd> →  devmgmt.msc (Device Manager)</p>
-Buscar: Adaptadores de Redc(networking adapters)/(buscamos mi tarjeta de red)/propiedades/advanced/ <br>
-Buscamos: Property "Roaming aggressiveness" y en ***Value*** seleccionamos el valor mas alto (5.Highest) <br>
+
+```Buscar```: Adaptadores de Red (networking adapters)/(buscamos mi tarjeta de red)/Properties/Advanced/ <br>
+```Buscamos```: Property ***Roaming aggressiveness*** y en ***Value*** seleccionamos el valor mas alto (5.Highest) <br>
 Aceptar.
 
 <br>
