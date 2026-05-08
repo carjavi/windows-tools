@@ -66,10 +66,38 @@ En el explorador de windows buscamos el disco principal <br>
 
 <br>
 
+# Agregar rutas de comandos al PATH de Windows desde PowerShell
+ 
+> :warning: **Warning:** PowerShell debe correr como Administrador, cambia la ruta.
+```PowerShell
+[Environment]::SetEnvironmentVariable(
+    "Path",
+    [Environment]::GetEnvironmentVariable("Path", "Machine") + ";C:\RUTA\AQUI",
+    "Machine"
+)
+```
+
+> :memo: **Note:** 
+> 
+> Con GitBash/CMD/Comando "setx" no funcionan
+> 
+> Posiblemente necesites reiniciar el PC
+
+
+Para verificar que si esta el ejecutable disponible en el Path lo podemos buscar con el comando;
+desde PowerShell
+```PowerShell
+Get-Command tesseract		# sample  tesseract.exe
+Get-Command ocrmypdf        # sample ocrmypdf.exe
+```
+
+
+<br>
+
 # Abrir office en el navegador
 Requiere que tengas cuenta google
 
-```
+```bash
 excel.new
 powerPoint.new
 word.new
