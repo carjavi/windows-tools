@@ -63,6 +63,49 @@ En el explorador de windows buscamos el disco principal <br>
 
 > :warning: **Warning:** Tener cuidado de selecvcionar la carpeta de Descarga de windows, podrias borrar archivos de interes.
 
+<br>
+
+# Liberar espacio sin afectar el funcionamiento normal de Windows (Soportado por Microsoft)
+```PowerShell
+Dism /Online /Cleanup-Image /AnalyzeComponentStore 	# Muestra cuánto espacio puede recuperarse.
+Dism /Online /Cleanup-Image /RestoreHealth	# Busca y repara componentes dañados.
+System32>Dism.exe /Online /Cleanup-Image /StartComponentCleanup
+```
+> :memo: **Note:** DISM (Deployment Image Servicing and Management) para limpiar el almacén de componentes de Windows (WinSxS)
+
+## Qué significa cada parámetro <br>
+
+```/Online```Trabaja sobre la instalación de Windows que está actualmente ejecutándose.<br>
+
+```/Cleanup-Image``` Indica que se realizarán tareas de mantenimiento sobre la imagen de Windows.<br>
+
+```/StartComponentCleanup``` Elimina versiones antiguas y reemplazadas de componentes del sistema que ya no son necesarias tras las actualizaciones de Windows.
+
+<br>
+
+# Upgrade Apps
+PowerShell
+```PowerShell
+win + r 
+winget upgrade 	# Lista los paquetes instalados para los que existe una versión más nueva disponible.
+winget upgrade --all # Intenta actualizar todos los paquetes que tienen actualización disponible.
+```
+
+<br>
+
+# Puntuación Computador
+lee las métricas de rendimiento que WinSAT ha calculado previamente. <br>
+PowerShell
+```PowerShell
+Get-CimInstance Win32_WinSAT
+Get-WmiObject Win32_WinSAT | Select-Object *
+Get-WmiObject Win32_WinSAT (PowerShell < 3.0)
+```
+Si devuelve valores vacíos:
+```PowerShell
+winsat formal
+```
+
 
 <br>
 
